@@ -15,6 +15,10 @@ Hello, World still...
   echo "You did tell me this on the previous page! I am not a mind reader...";
 ?>
 
+<form action="index.php">
+    <input type="submit" value="Go back from whence you came" />
+</form>
+
 
 </body>
 
