@@ -1,7 +1,7 @@
 <html>
 
 <head>
-<title>A nice title goes here!</title>
+<title>This is a tutorial!</title>
 </head>
 
 <body>
@@ -64,6 +64,14 @@ If statement
   }
 
 ?>
+<h3>
+Forms!!
+</h3>
+
+<form action="process.php" method="post">
+  Enter your name: <input name="name" type="text">
+  <input type="submit">
+</form>
 
 </body>
 </html>
