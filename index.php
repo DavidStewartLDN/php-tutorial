@@ -9,11 +9,16 @@
 Hello, World!
 </h1>
 <p>
+<h3>
+Basic Echo
+</h3>
 <?php
   echo "Hello, this is PHP speaking!";
 ?>
 </p>
-
+<h3>
+Variables and Numbers
+</h3>
 <p>
 <?php
   $myvar = 'This is my variable: ';
@@ -22,6 +27,17 @@ Hello, World!
   $sum = $number + $number2;
 
   echo $myvar, $sum;
+?>
+</p>
+<!-- String interpolation -->
+<h3>
+String interpolation
+</h3>
+<p>
+<?php
+  $name = 'David';
+
+  echo "Hello, " . $name;
 ?>
 </p>
 </body>
