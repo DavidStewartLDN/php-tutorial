@@ -39,6 +39,17 @@ String interpolation
 
   echo "Hello, " . $name;
 ?>
+
+<h3>
+Comparitors
+</h3>
+<?php
+  $small_number = 5;
+  $big_number = 500;
+  echo "Is {$small_number} equal to {$big_number}: ", var_export($small_number == $big_number);
+  echo "<br>";
+  echo "Is {$small_number} less than or equal to {$big_number}: ", var_export($small_number <= $big_number);
+?>
 </p>
 </body>
 </html>
