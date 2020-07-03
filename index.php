@@ -51,5 +51,19 @@ Comparitors
   echo "Is {$small_number} less than or equal to {$big_number}: ", var_export($small_number <= $big_number);
 ?>
 </p>
+
+<h3>
+If statement
+</h3>
+<?php
+  $loggedIn = false;
+  if ($loggedIn == true) {
+    echo "You are logged in";
+  } else {
+    echo "Please log in (when I have added the functionality :?)";
+  }
+
+?>
+
 </body>
 </html>
