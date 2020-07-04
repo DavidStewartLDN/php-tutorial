@@ -73,5 +73,21 @@ Forms!!
   <input type="submit">
 </form>
 
+<h3>
+Arrays :o
+</h3>
+
+<?php
+
+  $people = array("Alice", "Bob", "Steve", "Gruntilda");
+
+  // print_r - Prints human-readable information about a variable
+  print_r($people);
+
+  $key = array_rand($people);
+  echo "<br>";echo "<br>";
+  echo "Your random person for today is: ", $people[$key];
+?>
+
 </body>
 </html>
