@@ -89,5 +89,34 @@ Arrays :o
   echo "Your random person for today is: ", $people[$key];
 ?>
 
+<h3>
+Iteration - For Each
+</h3>
+
+<?php
+
+  $people = array("Alice", "Bob", "Steve", "Gruntilda");
+
+  $numbers = array(5,3,7);
+  $sum = 0;
+
+  echo 'All the people here today: <br>';
+
+  foreach ($people as $person) {
+    echo $person . '<br>';
+  };
+
+  echo '<br>';
+
+  echo 'Values in your number array: ' , print_r($numbers) , '<br>';
+
+  foreach ($numbers as $number) {
+    $sum += $number;
+  };
+
+  echo "Sum is equal to " . $sum
+
+?>
+
 </body>
 </html>
