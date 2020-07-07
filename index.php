@@ -14,7 +14,11 @@
 Hello,
 <?php
   $name = $_POST["name"];
-  echo " ", $name, "!";
+  if ($name != "") {
+    echo " ", $name, "!";
+  } else {
+    echo " World!";;
+  }
 ?>
 </h1>
 <p>
