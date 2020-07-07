@@ -1,12 +1,21 @@
 <html>
 
+<form method="post">
+  Enter your name: <input name="name" type="text">
+  <input type="submit">
+</form>
+
 <head>
 <title>This is a tutorial!</title>
 </head>
 
 <body>
 <h1>
-Hello, World!
+Hello,
+<?php
+  $name = $_POST["name"];
+  echo " ", $name, "!";
+?>
 </h1>
 <p>
 <h3>
