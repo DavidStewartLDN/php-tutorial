@@ -131,5 +131,18 @@ Iteration - For Each
 
 ?>
 
+<h3>
+PHP Objects
+</h3>
+
+<?php
+
+class message{
+  public $str = "this is a message";
+}
+
+
+?>
+
 </body>
 </html>
