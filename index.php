@@ -139,9 +139,16 @@ PHP Objects
 
 class message{
   public $str = "this is a message";
+
+  function show_message(){
+    return $this->str;
+  }
+
 }
 
-
+$notice = new message;
+var_dump($notice);
+echo $notice -> show_message();
 ?>
 
 </body>
